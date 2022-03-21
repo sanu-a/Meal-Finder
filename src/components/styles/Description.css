@@ -1,0 +1,47 @@
+#desc-container {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  align-items: center;
+}
+div h1 {
+  margin: 50px 100px;
+}
+#category {
+  border: 2px dashed yellow;
+  border-radius: 10px;
+  margin: 15px;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 16px;
+  font-size: larger;
+}
+#desc {
+  display: flex;
+  text-align: center;
+  margin: 20px;
+  padding: 0px;
+  width: 500px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 25px;
+}
+#ingredients {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  margin: 6px;
+  margin-top: 10px;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: medium;
+  font-weight: bold;
+  text-align: center;
+}
+#ing-container {
+  width: 500px;
+  margin: 20px 100px;
+}

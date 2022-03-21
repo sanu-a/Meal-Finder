@@ -1,0 +1,16 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  background-color: rgb(46, 31, 19);
+}
+.App {
+  text-align: center;
+  color: white;
+}
+img {
+  height: 175px;
+  width: 175px;
+  margin: 10px;
+  border: 4px solid white;
+}

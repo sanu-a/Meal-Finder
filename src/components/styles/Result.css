@@ -1,0 +1,25 @@
+#heading2 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Gochi Hand", cursive;
+}
+#img:hover img {
+  opacity: 0.3;
+}
+#img {
+  position: relative;
+  height: 175px;
+  width: 175px;
+}
+
+#img h3 {
+  display: inline-block;
+  position: absolute;
+  background: none;
+  left: 40px;
+  bottom: 130px;
+  height: 50px;
+  width: 120px;
+  text-align: center;
+  vertical-align: middle;
+}

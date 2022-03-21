@@ -1,0 +1,39 @@
+header {
+  width: 100%;
+}
+#heading1 {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  font-family: "Gochi Hand", cursive;
+}
+#input {
+  width: 100%;
+  max-width: 100%;
+  width: 400px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+.finder {
+  height: 40px;
+  background: white;
+  border-radius: 5px;
+}
+
+button {
+  width: 30px;
+  max-width: 30px;
+}
+#search {
+  border: 1px solid gray;
+  position: absolute;
+  right: 0px;
+  bottom: -12px;
+}
+#shuffle {
+  margin-left: 7px;
+  position: absolute;
+}
