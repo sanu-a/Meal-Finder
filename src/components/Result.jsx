@@ -16,9 +16,10 @@ function Result(props) {
         Search results for '{props.searchValue}'
       </h2>
       <div id="img-container">
-        {props.result.map((ele) => {
+        {props.result.map((ele, i) => {
           return (
             <span
+              key={i}
               id="img"
               onMouseEnter={(e) => {
                 setHover(true);

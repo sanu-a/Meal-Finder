@@ -20,12 +20,12 @@ function Description(props) {
         Ingredients
       </h1>
       <div id="ing-container">
-        {arr.map((e) => {
+        {arr.map((e, i) => {
           if (!ele["strIngredient" + e]) {
             return null;
           }
           return (
-            <div id="ingredients">
+            <div key={i} id="ingredients">
               {ele["strIngredient" + e] + " - " + ele["strMeasure" + e]}
             </div>
           );
